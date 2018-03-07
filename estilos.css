@@ -1,0 +1,15 @@
+html, body{
+    background-color: slategray;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#imgredonda{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+    border:8px solid #01163d;  
+}
+#imgredonda:hover {
+    transform: rotate3d(1,1,1,290deg);
+}
